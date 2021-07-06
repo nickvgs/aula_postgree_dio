@@ -1,1 +1,52 @@
 # aula_postgree_dio
+
+
+Comandos essenciais do Postgree
+Utilizar os comandos pelo CMD
+
+!! Importante !!  colocar o postgree na sua váriavel de ambiente.
+
+#comando para conectar no postgree:
+
+psql -U user_name -h localhost -p porta
+
+    aperte enter e solicitará a senha, digite e acesse o banco:
+
+#comando que lista os databases:
+\l 
+
+#comando que seleciona seu database:
+\c name_database
+
+#comando que lista as tabelas contidas em sua base
+\d
+
+#comando que lista as tabelas
+\dt
+
+#comando que descreve todos os atributos da tabela e suas propriedades
+\d name_table
+
+#comando que lista os esquemas
+\dn
+
+#comando que lista os privilégios
+\dp
+
+#Exibe todos os comandos
+\h
+
+#Verifica os usuários do sistema e seus atributos
+\du
+
+#todas as tabelas do administrador
+\dS
+
+#Utiliza os comandos diretamente no terminal sem deslogar do postgres
+\!
+
+#Desconectar do Postgres
+\q
+
+
+
