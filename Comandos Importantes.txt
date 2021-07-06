@@ -22,7 +22,7 @@ psql -U user_name -h localhost -p porta
 \dt
 
 #comando que descreve todos os atributos da tabela e suas propriedades
-\d name_table
+\d "name_table"
 
 #comando que lista os esquemas
 \dn
